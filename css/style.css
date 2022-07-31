@@ -73,18 +73,29 @@ article{
     height: 100vh;
     background-image: url(../assets/img/gaming_1280.jpg);
     background-size: cover;
+    background-position: left ;
 }
 
-.principal{
+.box{
+    display: inline-block;
     border: 2px solid black;
-    width: 350px;
-    height: 150px;
+    width: 627px; 
+    padding: 42px 44px;
+    text-align: center;
+    font-family: var(--font2);
+    background-color: rgba(153, 153, 153, 0.604);
+    box-shadow: 3px 3px 1px #000;
 }
 
-div h1{
+.box h1{
     font-size: 40px;
+    color: var(--cor2);
+    text-shadow: 3px 3px 1px black;
+   margin-bottom: 28px;
 }
 
-div p{
+.box p{
     font-size: 30px;
+    color: var(--cor5);
+    text-shadow: 3px 3px 1px black;
 }
