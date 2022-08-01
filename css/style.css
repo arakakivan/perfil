@@ -29,10 +29,6 @@ header{
     padding: 10px 20px;
 }
 
-nav{
-    text-align: right;
-}
-
 a{
     display: inline-flex;
     align-items: center;
@@ -51,7 +47,7 @@ a::before{
     margin-right: 10px;
 }
 
-#button{
+.button{
     background-color: var(--cor2);
     display: inline-block;
     height: 60px;
@@ -62,13 +58,13 @@ a::before{
     transition: 0.3s;
 }
 
-#button:hover{
+.button:hover{
     background-color: var(--cor5);
     color: var(--cor2);
     transform: scale(1.05);
 }
 
-article{
+section{
     width: 99vw;
     height: 100vh;
     background-image: url(../assets/img/gaming_1280.jpg);
@@ -99,3 +95,4 @@ article{
     color: var(--cor5);
     text-shadow: 3px 3px 1px black;
 }
+
