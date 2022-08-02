@@ -65,11 +65,17 @@ a::before{
 }
 
 section{
-    width: 99vw;
-    height: 100vh;
+    display: flex;
+    height: 800px;
     background-image: url(../assets/img/gaming_1280.jpg);
     background-size: cover;
-    background-position: left ;
+    background-position: right;
+    border-bottom: 10px solid black;
+}
+
+.wrapper{
+    padding-top: 110px;
+    padding-left: 90px;
 }
 
 .box{
@@ -81,6 +87,8 @@ section{
     font-family: var(--font2);
     background-color: rgba(153, 153, 153, 0.604);
     box-shadow: 3px 3px 1px #000;
+    margin-bottom: 40px;
+   
 }
 
 .box h1{
@@ -96,3 +104,8 @@ section{
     text-shadow: 3px 3px 1px black;
 }
 
+.navegation{
+    display: flex;
+    justify-content: space-around;
+    
+}
