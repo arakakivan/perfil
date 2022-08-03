@@ -64,9 +64,9 @@ a::before{
     transform: scale(1.05);
 }
 
-section{
+.banner{
     display: flex;
-    height: 800px;
+    height: 700px;
     background-image: url(../assets/img/gaming_1280.jpg);
     background-size: cover;
     background-position: right;
@@ -91,14 +91,14 @@ section{
    
 }
 
-.box h1{
+.name{
     font-size: 40px;
     color: var(--cor2);
     text-shadow: 3px 3px 1px black;
    margin-bottom: 28px;
 }
 
-.box p{
+.status{
     font-size: 30px;
     color: var(--cor5);
     text-shadow: 3px 3px 1px black;
@@ -107,5 +107,30 @@ section{
 .navegation{
     display: flex;
     justify-content: space-around;
+    
+}
+
+.wisdom{
+    background-color: var(--cor2);
+    height: 500px;
+    width: 100%;
+    border-bottom: 10px solid #000;
+}
+
+.knows{
+    display: flex;
+    font-size: 40px;
+    font-family: var(--font2);
+    color: var(--cor5);
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+.progress-bar{
+    color:var(--cor5);
+    font-size: 25px;
+    font-family: var(--font2);
+    columns: 2;
     
 }
