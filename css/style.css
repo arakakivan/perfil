@@ -95,7 +95,7 @@ a::before{
     font-size: 40px;
     color: var(--cor2);
     text-shadow: 3px 3px 1px black;
-   margin-bottom: 28px;
+    margin-bottom: 28px;
 }
 
 .status{
@@ -110,27 +110,35 @@ a::before{
     
 }
 
-.wisdom{
+.skill{
     background-color: var(--cor2);
-    height: 500px;
-    width: 100%;
-    border-bottom: 10px solid #000;
-}
-
-.knows{
-    display: flex;
-    font-size: 40px;
-    font-family: var(--font2);
-    color: var(--cor5);
-    justify-content: center;
     padding-top: 50px;
-    margin-bottom: 40px;
+    padding-bottom: 100px;
+    font-size: 25px;
+    font-family: var(--font1);
+    border-bottom: 10px solid var(--cor3);
 }
 
-.progress-bar{
+.name.-second{
     color:var(--cor5);
-    font-size: 25px;
+    text-shadow: none;
+    text-align: center;
     font-family: var(--font2);
-    columns: 2;
-    
+}
+
+.type{
+    display: flex;
+}
+
+.icon{
+    margin-right: 25px;
+}
+
+.iden{
+    color: var(--cor5);
+}
+
+dd .bar{
+    height: 40px;
+    border: 5px solid #000;
 }
