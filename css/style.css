@@ -110,6 +110,14 @@ a::before{
     
 }
 
+.wrapper-skill{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .skill{
     background-color: var(--cor2);
     padding-top: 50px;
@@ -124,6 +132,7 @@ a::before{
     text-shadow: none;
     text-align: center;
     font-family: var(--font2);
+    margin-bottom: 60px;
 }
 
 .type{
@@ -131,15 +140,23 @@ a::before{
     color: #fff;
     font-size: 25px;
     align-items: center;
+    width: 430px;
+    margin-bottom: 40px;
+}
+
+.type:nth-child(odd){
+    margin-right: 100px;
 }
 
 .icon{
     margin-right: 25px;
+    width: 90px;
 }
 
 .iden{
-    color: var(--cor5);
     margin-right: 20px;
+    margin-bottom: 16px;
+    font-family: var(--font2);
 }
 
 .right{
@@ -153,6 +170,7 @@ a::before{
     height: 40px;
     border: 5px solid #000;
     box-sizing: border-box;
+    width: 320px;
 }
 
 .progress-bar::-webkit-progress-bar,
@@ -160,3 +178,37 @@ a::before{
     background-color: var(--cor4);
 }
 
+.project{
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+.title-project{
+    font-family: var(--font2);
+    color: var(--cor5);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.img-project{
+    
+}
+
+.android{
+    margin-left: 140px;
+    background-color: var(--cor5);
+    box-shadow: 5px 5px 0px var(--cor4);
+}
+
+.ivan{
+    margin-left: 148px;
+    box-shadow: 5px 5px 0px var(--cor4);
+}
+
+.taichi{
+    margin-left: 148px;
+    box-shadow: 5px 5px 0px var(--cor4);
+}
