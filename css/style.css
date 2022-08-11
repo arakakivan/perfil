@@ -29,7 +29,7 @@ header{
     padding: 10px 20px;
 }
 
-a{
+.main{
     display: inline-flex;
     align-items: center;
     color: var(--cor5);
@@ -39,7 +39,7 @@ a{
     margin-right: 30px;
 }
 
-a::before{
+.main::before{
     content: "";
     background-color: var(--cor2);
     width: 10px;
@@ -51,11 +51,15 @@ a::before{
     background-color: var(--cor2);
     display: inline-block;
     height: 60px;
+    color: var(--cor5);
+    font-family: var(--font1);
+    font-size: 20px;
     line-height: 60px;
     padding: 0px 20px;
     box-shadow: 5px 5px 1px black;
     margin: 0;
     transition: 0.3s;
+    text-decoration: none;
 }
 
 .button:hover{
@@ -191,6 +195,8 @@ progress{
 .project{
     background-color: var(--cor3);
     border-bottom: 10px solid #000;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .title-project{
@@ -199,11 +205,12 @@ progress{
     color: var(--cor5);
     font-family: var(--font2);
     font-size: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 figure{
     padding: 10px;
+    
 }
 
 .logo{
@@ -211,6 +218,7 @@ figure{
     width: 280px;
     height: 280px;
     box-shadow: 10px 10px 0px #000;
+    list-style: none;
 }
 
 .-white{
@@ -220,4 +228,13 @@ figure{
 .wrapper-card{
     display: flex;
     justify-content: space-around;
+}
+
+.main-article{
+    background-color: var(--cor4);
+    font-family: var(--font1);
+    color: var(--cor5);
+    font-size: 30px;
+    line-height: 40px;
+    text-align: justify;
 }
