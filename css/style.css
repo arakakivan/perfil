@@ -3,6 +3,7 @@
 @font-face {
     font-family: 'fira code';
     src: url(../assets/font.firacode/FiraCode-Medium.ttf) format('truetype');
+    src: url(../assets/font.firacode/FiraCode-Light.ttf) format('truetype');
 }
 
 @font-face {
@@ -232,9 +233,15 @@ figure{
 
 .main-article{
     background-color: var(--cor4);
+    
+}
+
+.info{
     font-family: var(--font1);
     color: var(--cor5);
     font-size: 30px;
-    line-height: 40px;
+    font-weight: lighter;
+    line-height: 1.3;
     text-align: justify;
+    padding: 80px;
 }
