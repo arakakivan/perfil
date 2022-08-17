@@ -272,3 +272,18 @@ figure{
 .button-arrow.-left::before{
     transform: rotate(180deg) translateX(15px);
 }
+
+footer{
+    background-color: #000;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    width: 45px;
+    height: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
